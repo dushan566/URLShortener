@@ -1,0 +1,13 @@
+***/.terraform/*
+terraform/stacks/*/.terraform.lock.hcl
+
+
+*.tfstate
+*.tfstate.*
+*.swp
+crash.log
+
+terraform/stacks/*/terraform.auto.tfvars
+terraform/stacks/*/s3_backend.tf
+**/.DS_Store
+#secrets
