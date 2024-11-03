@@ -3,7 +3,7 @@ locals {
   application_name = "URLShortener"
 
   tags = {
-   Environment = "Dev"
+   Environment = "Staging"
    Application = "URL Shortener"
    ManagedBy   = "Terrafrom"
    Team        = "SRE"

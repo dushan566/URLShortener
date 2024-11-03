@@ -10,8 +10,6 @@ crash.log
 *.tfvars
 !terraform.tfvars
 terraform/stacks/*/terraform.auto.tfvars
-
+terraform/stacks/*/s3_backend.tf
 **/.DS_Store
-# secrets/
-
-**/s3_backend.tf
+#secrets
